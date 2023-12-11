@@ -68,6 +68,6 @@
    /*short-hand property for (grow, shrink, basis), grow is required other 2 are optional*/
    /* flex: 1;   */
 
-   align-self: center;
-
+   align-self: auto; 
+   order: -1;
   }
