@@ -45,7 +45,9 @@
   }
   
   /* END OF BASE STYLES */
-
+  /*Note: main-axis is set to horizontal by default 
+  and cross-axis is set to vertical by default*/
+  
   .container{
     display: flex;
     /* flex-direction: column; /*by default property is row*/
