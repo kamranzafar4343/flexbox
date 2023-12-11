@@ -45,13 +45,29 @@
   }
   
   /* END OF BASE STYLES */
-  /*Note: main-axis is set to horizontal by default 
-  and cross-axis is set to vertical by default*/
-  
+ 
+
   .container{
     display: flex;
     /* flex-direction: column; /*by default property is row*/
-    justify-content: flex-start;
-    align-items: center; 
-    
+    /* justify-content: center;
+    align-items: center;  */
+    gap: 20px;
+
+    /* flex-wrap: wrap;
+    /*align content works when items are wrapping*/
+    /*align-content: flex-end;*/
+  
+  } 
+
+  .item-1{
+   /* flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 5; max size at which that item shrinks */
+
+   /*short-hand property for (grow, shrink, basis), grow is required other 2 are optional*/
+   /* flex: 1;   */
+
+   align-self: center;
+
   }
