@@ -48,7 +48,8 @@
 
   .container{
     display: flex;
-    flex-direction: column;
-    
+    /* flex-direction: column; /*by default property is row*/
+    justify-content: flex-start;
+    align-items: center; 
     
   }
