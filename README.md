@@ -10,8 +10,7 @@ Flexbox tutorial
 ----------------------------------------------------------------------------------------
 
 Discord -  
-
- / discord  
+  
 Codepen for this project - https://codepen.io/ramzibach-the-styl...
 Blog post - https://slayingthedragon.notion.site/...
 
